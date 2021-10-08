@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+}
+.select{
+    width: 315px;
+    height: 612px;
+    background-color: #fff; 
+    box-shadow: 0px 0px 1px;
+}
+.navigation{
+    width: 100%;
+    height: 40px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+.navigation p{
+    font-weight: 600;
+    margin-left: 10px;
+    flex: 1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navigation i{
+    margin-right: 10px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url("https://lh3.googleusercontent.com/oL4Ku51H6dBftVpxUm3A1_iaBz2mrv2AhlLXhiM2MPUJx2mZrkhdIOd8HY50sFacvyQn");
+    margin: auto;
+    margin-top: 10px;
+}
+.select h2{
+    margin: 20px 110px;
+    font-weight: 500;
+    font-size: 40px;
+}
+.select h3{
+    margin-left: 80px;
+    font-weight: 600;
+}
+.btn{
+    width: 90%;
+    height: 45px;
+    background-color:black;
+    color: #fff;
+    border: none;
+    margin: 15px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #ddd;
+}
+.btn2{
+    width: 90%;
+    height: 45px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: black;
+    color: #fff;
+}
+.banner{
+    display: flex;
+}
+
+.banner_img2{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 180px;
+}
+.banner_img {
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 180px;
+}
+.bottom{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.bottom i{
+    margin: 0px 20px;
+}
+.bottom button{
+    width: 60px;
+    height: 30px;
+    margin-left: 17px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff1893;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+.bottom button:hover{
+    background-color: #ddd;
+}
